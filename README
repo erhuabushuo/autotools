@@ -1,0 +1,17 @@
+
+## Flow these constructions
+
+    autoscan
+    mv configure.scan configure.ac
+    aclocal
+    autoconf
+    autoheader
+    touch Makefile.am
+    touch NEWS
+    touch README
+    touch AUTHORS
+    touch ChangeLog
+    automake --add-missing
+    ./configure
+    make
+
